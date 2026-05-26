@@ -3,89 +3,90 @@
 [![Python](https://img.shields.io/badge/Python-3.6+-blue.svg)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
 
-Welcome to the **Python Basics Course** repository! This comprehensive course is designed to teach you the fundamentals of Python programming through hands-on exercises and practical examples.
+Welcome to the **Python Basics Course** repository. This repo contains class notebooks, examples, and assignments for learning Python fundamentals through hands-on practice.
 
-## 📚 Course Overview
+## Course Overview
 
-This course covers essential Python concepts from basic syntax to advanced topics, structured over 11 days of lessons plus assignments. Each module builds upon the previous one, ensuring a solid foundation in Python programming.
+The course is organized into daily folders from **Day 1** to **Day 13**, plus an assignment folder. Each day contains Jupyter notebooks or supporting files used during class.
 
-## 🗂️ Course Structure
+## Course Structure
 
 ### Assignments
+
 | Assignment | Description | Files |
 |------------|-------------|-------|
-| **Assignment 1** | Problem sets covering basic concepts | `p1.ipynb`, `p2.ipynb` |
+| **Assignment 1** | Practice problems for basic Python concepts | `p1.ipynb`, `p2.ipynb`, `210309_Uzair.zip` |
 
 ### Daily Lessons
 
-| Day | Topic | Files | Description |
-|-----|-------|-------|-------------|
-| **Day 1** | Introduction to Python | `Exercise1.ipynb`, `test.ipynb` | Getting started with Python basics |
-| **Day 2** | Basic Concepts | `Exercise.ipynb`, `homework.ipynb`, `test.ipynb` | Variables, expressions, and simple programs |
-| **Day 3** | Data Types and Variables | `test.ipynb` | Understanding Python data types |
-| **Day 4** | Control Structures | `test.ipynb` | Loops and conditional statements |
-| **Day 5** | Functions | `t.ipynb` | Defining and using functions |
-| **Day 6** | Lists and Tuples | `test.ipynb` | Working with sequences |
-| **Day 7** | Dictionaries and Sets | `test.ipynb` | Key-value data structures |
-| **Day 8** | File Handling | `test.ipynb` | Reading and writing files |
-| **Day 9** | Modules and Packages | `test.ipynb` | Organizing code |
-| **Day 10** | Error Handling | `test.ipynb` | Exception handling |
-| **Day 11** | Advanced Topics | `c.txt`, `test.ipynb` | Advanced Python concepts |
+| Day | Topic | Files |
+|-----|-------|-------|
+| **Day 1** | Introduction to Python | `Exercise1.ipynb`, `test.ipynb` |
+| **Day 2** | Basic syntax and exercises | `Exercise.ipynb`, `homework.ipynb`, `test.ipynb` |
+| **Day 3** | Python basics practice | `test.ipynb` |
+| **Day 4** | Control flow practice | `test.ipynb` |
+| **Day 5** | Functions and notebook practice | `t.ipynb`, `test.ipynb` |
+| **Day 6** | Data structures practice | `test.ipynb` |
+| **Day 7** | Python collections practice | `test.ipynb` |
+| **Day 8** | File and notebook practice | `test.ipynb` |
+| **Day 9** | Modules and practice examples | `test.ipynb` |
+| **Day 10** | Error handling and examples | `test.ipynb` |
+| **Day 11** | Advanced practice with text files | `test.ipynb`, `c.txt`, `t.txt` |
+| **Day 12** | Python modules and packaging practice | `codes.py`, `setup.py`, `Minor1.txt`, `test.ipynb`, `test2.ipynb`, `test3.ipynb`, `test4.ipynb` |
+| **Day 13** | Additional Python practice | `test.ipynb` |
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
+
 - Python 3.6 or higher
-- Basic understanding of programming concepts
-- Familiarity with command line/terminal operations
+- Jupyter Notebook
+- Basic command-line familiarity
 
-### Installation
+### Setup
 
-1. **Install Python**: Download from [python.org](https://www.python.org/downloads/) if not already installed.
+1. Clone this repository:
 
-2. **Install Jupyter Notebook**:
-   ```bash
-   pip install jupyter
-   ```
-
-3. **Clone this repository**:
    ```bash
    git clone <repository-url>
    cd Python-Basics
    ```
 
-4. **Start Jupyter**:
+2. Install Jupyter Notebook if it is not already installed:
+
+   ```bash
+   pip install notebook
+   ```
+
+3. Start Jupyter Notebook:
+
    ```bash
    jupyter notebook
    ```
 
-5. Navigate to any day's folder and open the `.ipynb` files to begin learning!
+4. Open any day folder and run the notebooks in order.
 
-## 📖 How to Use
+## How to Use This Repository
 
-- Follow the lessons in order from Day 1 to Day 11
-- Complete the exercises in each notebook
-- Work on assignments to reinforce your learning
-- Use the `test.ipynb` files for additional practice
+- Start with `Day1` and move through the folders in order.
+- Open `.ipynb` files in Jupyter Notebook.
+- Complete the exercises and homework notebooks as practice.
+- Use the assignment folder to review and apply the concepts.
+- Keep your own experiment files separate from the original class notebooks.
 
-## 📚 Resources
+## Useful Resources
 
 - [Python Official Documentation](https://docs.python.org/3/)
-- [Jupyter Notebook Documentation](https://jupyter-notebook.readthedocs.io/en/stable/)
 - [Python Tutorial](https://docs.python.org/3/tutorial/)
+- [Jupyter Notebook Documentation](https://jupyter-notebook.readthedocs.io/en/stable/)
 - [Real Python](https://realpython.com/)
 
-## 🤝 Contributing
+## Repository Notes
 
-We welcome contributions! Please feel free to:
-- Report issues or bugs
-- Suggest improvements
-- Submit pull requests for enhancements
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- This repository currently does not include a `requirements.txt` file.
+- Generated files such as `__pycache__`, `build`, and `*.egg-info` may appear after running packaging examples.
+- No license file is currently included.
 
 ---
 
-Happy coding! 🐍
+Happy coding!
